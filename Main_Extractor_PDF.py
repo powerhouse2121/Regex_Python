@@ -8,7 +8,7 @@ import logger_file
 import pandas as pd
 
 class regex_main_function:
-
+    """This is Regex main class"""
     #Call load_config function
     def __init__(self,config_file="config_regex.json"):    
         self.config=self.load_config(config_file)
